@@ -1,0 +1,28 @@
+{
+  "rewrites": [
+    {
+      "source": "/login/:path*",
+      "destination": "https://backend.lgpdash.pro/login/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://backend.lgpdash.pro/api/:path*"
+    },
+    {
+      "source": "/app/:path*",
+      "destination": "https://backend.lgpdash.pro/app/:path*"
+    },
+    {
+      "source": "/dashboard/:path*",
+      "destination": "https://backend.lgpdash.pro/dashboard/:path*"
+    },
+    {
+      "source": "/painel/:path*",
+      "destination": "https://backend.lgpdash.pro/painel/:path*"
+    },
+    {
+      "source": "/auth/:path*",
+      "destination": "https://backend.lgpdash.pro/auth/:path*"
+    }
+  ]
+}
