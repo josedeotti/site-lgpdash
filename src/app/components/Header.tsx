@@ -42,7 +42,7 @@ export function Header() {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center gap-4">
             <Button variant="ghost" className="text-gray-600" asChild>
-              <a href="https://lgpdash.pro/login">Login</a>
+              <a href="https://app.lgpdash.pro/login">Login</a>
             </Button>
             <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">
               Demo Gratuita
@@ -76,7 +76,7 @@ export function Header() {
               </a>
               <div className="flex flex-col gap-2 pt-4 border-t border-gray-200">
                 <Button variant="outline" className="w-full" asChild>
-                  <a href="https://lgpdash.pro/login">Login</a>
+                  <a href="https://app.lgpdash.pro/login">Login</a>
                 </Button>
                 <Button className="w-full bg-emerald-500 hover:bg-emerald-600 text-white">
                   Trial Gratuito
