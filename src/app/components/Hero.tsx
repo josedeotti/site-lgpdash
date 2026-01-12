@@ -1,6 +1,7 @@
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
+import heroImage from "../../assets/lgpdash-img-hero.webp";
 
 export function Hero() {
   return (
@@ -38,7 +39,7 @@ export function Hero() {
           <div className="relative">
             <div className="relative rounded-xl shadow-2xl overflow-hidden border-4 border-white">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1608222351212-18fe0ec7b13b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGRhc2hib2FyZCUyMGFuYWx5dGljc3xlbnwxfHx8fDE3Njc4MzYyODR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={heroImage}
                 alt="Dashboard LGPDash"
                 className="w-full h-auto"
               />

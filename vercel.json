@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/login/:path*",
+      "destination": "http://148.230.76.163/login/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "http://148.230.76.163/api/:path*"
+    },
+    {
+      "source": "/app/:path*",
+      "destination": "http://148.230.76.163/app/:path*"
+    },
+    {
+      "source": "/dashboard/:path*",
+      "destination": "http://148.230.76.163/dashboard/:path*"
+    },
+    {
+      "source": "/painel/:path*",
+      "destination": "http://148.230.76.163/painel/:path*"
+    }
+  ]
+}
